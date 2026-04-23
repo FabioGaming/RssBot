@@ -1,7 +1,7 @@
-import type { ChatInputCommand, MessageCommand, CommandData } from 'commandkit';
+import type { ChatInputCommand, MessageCommand, CommandData } from "commandkit";
 
 export const command: CommandData = {
-  name: 'ping',
+  name: "ping",
   description: "Ping the bot to check if it's online.",
 };
 
