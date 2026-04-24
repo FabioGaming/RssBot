@@ -17,6 +17,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@commandkit/tasks": "^1.2.1",
     "commandkit": "^1.2.1",
     "discord.js": "^14.26.3",
     "prettier": "^3.8.3"
