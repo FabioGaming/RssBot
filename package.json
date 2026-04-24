@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "commandkit dev",
     "build": "commandkit build",
-    "start": "commandkit start"
+    "start": "commandkit start",
+    "prettier:check": "prettier --check --ignore-unknown \"src/**/*\"",
+    "prettier:format": "prettier --write --ignore-unknown \"src/**/*\""
   },
   "devDependencies": {
     "@types/node": "^24.12.2",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "commandkit": "^1.2.1",
-    "discord.js": "^14.26.3"
+    "discord.js": "^14.26.3",
+    "prettier": "^3.8.3"
   }
 }
