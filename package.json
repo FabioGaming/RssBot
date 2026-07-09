@@ -21,7 +21,7 @@
     "commandkit": "^1.2.1",
     "discord.js": "^14.26.3",
     "dotenv": "^17.4.2",
-    "prettier": "^3.8.3",
+    "prettier": "^3.9.4",
     "zod": "^4.4.3"
   }
 }
