@@ -1,6 +1,6 @@
 import { pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
-import { subscriptions } from './subscriptions.schema';
-import { feedItems } from './feed-items.schema';
+import { subscriptions } from '../schemas/subscriptions.schema';
+import { feedItems } from '../schemas/feed-items.schema';
 
 export const deliveryLogs = pgTable('delivery_logs', {
     id: uuid('id').primaryKey().defaultRandom(),
