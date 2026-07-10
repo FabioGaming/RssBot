@@ -5,6 +5,6 @@ export const guilds = pgTable('guilds', {
     guildId: text('guild_id').notNull(),
     createdAt: timestamp('added_at', {
         mode: 'date',
-        withTimezone: true,
+        withTimezone: false,
     }).defaultNow(),
 });
